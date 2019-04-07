@@ -57,7 +57,7 @@ def runner
   welcome
   initial_round
   prompt_user
-  hit?
+  hit?(card_total)
   display_card_total
   until card_total > 21
     end_game
